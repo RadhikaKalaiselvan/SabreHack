@@ -1,0 +1,25 @@
+{
+  "name": "sabrettx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hdg-utd/SabreTravel.git"
+  },
+  "author": "All dem UTD folks",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hdg-utd/SabreTravel/issues"
+  },
+  "homepage": "https://github.com/hdg-utd/SabreTravel#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "sabre-dev-studio": "^1.2.0",
+    "ticketevolution-node": "^1.1.0"
+  }
+}

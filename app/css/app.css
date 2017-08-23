@@ -1,0 +1,133 @@
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+    display: none !important;
+}
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+.navbar ul li:hover {
+    background-color: lightgray;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: white;
+}
+
+body {
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+fieldset {
+    padding: 20px 15%;
+}
+
+#city label {
+    margin-right: 10px;
+}
+
+#city input {
+    margin-right: 118px;
+}
+
+
+form #dates {
+    display: inline-block;
+}
+
+#dates #departing, #dates #return {
+    margin-right: 20px;
+}
+
+#departing {
+    float: left;
+}
+
+#return {
+    float: right;
+}
+
+#submit {
+    text-align: center;
+    margin-top: 35px;
+}
+
+#submit button {
+    font-size: 25px;
+}
+
+#flight-list {
+    height: 900px;
+    margin-bottom: 50px;
+
+}
+
+md-title .origin{
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+md-title .airportTitle{
+    color: #344756;
+    font-size: 250%;
+}
+
+
+md-title .airportTitleDestination {
+    font-size: 250%;
+    color: #344756;
+    margin-right: 400px;
+}
+
+md-card-content label span {
+    font-weight: normal;
+    margin-left: 10px;
+}
+
+#show-extra, #flight-extra {
+    height: 600px;
+    border: 1px solid white;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+#extras {
+    width: 100%;
+    height: 500px;
+}
+
+#flight-extra {
+    float: left;
+    width: 63%;
+}
+
+#show-extra {
+    float: right;
+    width: 33%;
+    padding-left: 10px;
+
+}
+
+#card {
+    margin-right: 25px;
+    margin-left: 0px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+md-card:focus {
+    outline: none;
+    border: 0;
+}
+
+.yellow{
+    background-color:yellow;
+}
